@@ -23,7 +23,7 @@
                         <p:growl id="messages"/>
 
                         <p:menubar>
-                            <p:submenu label="Inicio" icon="ui-icon-document">
+                            <p:submenu label="Administración" icon="ui-icon-document">
                                 <p:submenu label="New" icon="ui-icon-contact">
                                     <p:menuitem value="Project" url="#" />
                                     <p:menuitem value="Other" url="#" />
@@ -33,12 +33,12 @@
                                 <p:menuitem value="Quit" url="#" />
                             </p:submenu>
 
-                            <p:submenu label="Edit" icon="ui-icon-pencil">
+                            <p:submenu label="Solicitudes" icon="ui-icon-pencil">
                                 <p:menuitem value="Undo" url="#" icon="ui-icon-arrowreturnthick-1-w" />
                                 <p:menuitem value="Redo" url="#" icon="ui-icon-arrowreturnthick-1-e" />
                             </p:submenu>
 
-                            <p:submenu label="Help" icon="ui-icon-help">
+                            <p:submenu label="Historial" icon="ui-icon-help">
                                 <p:menuitem value="Contents" url="#" />
                                 <p:submenu label="Search" icon="ui-icon-search">
                                     <p:submenu label="Text">
@@ -48,7 +48,7 @@
                                 </p:submenu>
                             </p:submenu>
 
-                            <p:submenu label="Actions" icon="ui-icon-gear">
+                            <p:submenu label="Acciones" icon="ui-icon-gear">
                                 <p:submenu label="Ajax" icon="ui-icon-refresh">
                                     <p:menuitem value="Save" actionListener="#{menuView.save}" icon="ui-icon-disk" update="messages"/>
                                     <p:menuitem value="Update" actionListener="#{menuView.update}" icon="ui-icon-arrowrefresh-1-w" update="messages"/>
@@ -58,7 +58,7 @@
                                 </p:submenu>
                             </p:submenu>
 
-                            <p:menuitem value="Quit" url="http://www.primefaces.org" icon="ui-icon-close" />
+                            <p:menuitem value="Documentación" url="http://www.primefaces.org" icon="ui-icon-document" />
 
                             <f:facet name="options">
                                 <p:inputText style="margin-right:10px" placeholder="Search"/>

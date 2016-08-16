@@ -15,4 +15,10 @@
             <var>bundle</var>
         </resource-bundle>
     </application>
+    <managed-bean>
+        <description>Visa de Login para Usuario</description>
+        <managed-bean-name>userLoginView</managed-bean-name>
+        <managed-bean-class>vista.UserLoginView</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
 </faces-config>
